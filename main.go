@@ -1,7 +1,14 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"labs_programming_go/labs-1"
+)
 
 func main() {
-	fmt.Println("main started...")
+	fmt.Println("main pkg started...")
+
+	fmt.Println("Лабораторная №1:")
+	labs_1.Run()
 }
