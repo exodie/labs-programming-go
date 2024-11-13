@@ -7,6 +7,7 @@ import (
 	labs_3 "labs_programming_go/labs-3"
 	labs_4 "labs_programming_go/labs-4"
 	labs_5 "labs_programming_go/labs-5"
+	labs_6 "labs_programming_go/labs-6"
 )
 
 func main() {
@@ -19,6 +20,7 @@ func main() {
 	fmt.Println("3 - Лабораторная №3")
 	fmt.Println("4 - Лабораторная №4")
 	fmt.Println("5 - Лабораторная №5")
+	fmt.Println("6 - Лабораторная №6")
 	fmt.Print("Введите номер лабораторной работы: ")
 	_, err := fmt.Scan(&choice)
 	if err != nil {
@@ -42,6 +44,9 @@ func main() {
 	case 5:
 		fmt.Println("\nЛабораторная №5:")
 		labs_5.Run()
+	case 6:
+		fmt.Println("\nЛабораторная №5:")
+		labs_6.Run()
 	default:
 		fmt.Println("Неверный выбор. Пожалуйста, выберите 1 или 2.")
 	}

@@ -15,5 +15,6 @@ func Run() {
 	//	return
 	//}
 
+	fmt.Println("String:", input)
 	fmt.Println("Длина строки:", length(input))
 }

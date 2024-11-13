@@ -7,6 +7,5 @@ import (
 
 func Run() {
 	example.RunExample()
-
 	arrays.Run()
 }

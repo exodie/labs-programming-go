@@ -14,9 +14,9 @@ func isEven() {
 		return
 	}
 
-	if number%2 == 0 {
-		fmt.Println("Число четное.")
-	} else {
+	if number%2 != 0 {
 		fmt.Println("Число нечетное.")
+	} else {
+		fmt.Println("Число четное.")
 	}
 }
